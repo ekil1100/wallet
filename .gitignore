@@ -1,0 +1,26 @@
+# Rust
+/target
+Cargo.lock
+**/*.rs.bk
+
+# Environment
+.env
+*.env
+
+# Wallet files (contain private keys)
+*.json
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude
+.claude/
