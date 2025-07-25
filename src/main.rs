@@ -1,10 +1,10 @@
-use clap::{Parser, Subcommand};
 use anyhow::Result;
+use clap::{Parser, Subcommand};
 use dotenv::dotenv;
 
 mod commands;
-mod wallet;
 mod utils;
+mod wallet;
 
 use commands::{account, balance, transaction};
 
